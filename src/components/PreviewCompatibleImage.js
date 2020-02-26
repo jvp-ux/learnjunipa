@@ -16,6 +16,17 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />
   }
 
+
+  if (!!image && extension === 'svg')
+  return <img style={imageStyle} src={image} alt={alt} />
+
+return null
+}
+
+  // if (!childImageSharp && extension === 'svg') {
+  //   return <img style={imageStyle} src={publicURL} alt={alt} />
+  // }
+
   if (!!image && typeof image === 'string')
     return <img style={imageStyle} src={image} alt={alt} />
 
