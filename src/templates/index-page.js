@@ -20,7 +20,7 @@ export const IndexPageTemplate = ({
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          !!image.childImageSharp ? image.childImageSharp.fluid.src : image.publicURL
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
@@ -38,10 +38,7 @@ export const IndexPageTemplate = ({
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+          style={{           
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -51,10 +48,7 @@ export const IndexPageTemplate = ({
         </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+          style={{            
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -165,6 +159,8 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+          extension
+          publicURL 
         }
         heading
         subheading
@@ -181,7 +177,9 @@ export const pageQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
-            }
+              extension
+              publicURL  
+            }            
             text
           }
           heading
