@@ -5,41 +5,20 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import Content, { HTMLContent } from '../components/Content'
+import iconFundamentals from '../../static/img/icon-fundamentals.svg'
+import iconSetup from '../../static/img/icon-setup.svg'
+import iconTutorials from '../../static/img/icon-tutorials.svg'
 
 
 export const IndexPageTemplate = ({
   image,
-  content, contentComponent, 
   title,
   heading,
   subheading,
   mainpitch,
   description,
   intro,
-}) => {
-
-const PageContent = contentComponent || Content 
-
-return (
-  <section className="section section--gradient">
-    <div className="container">
-      <div className="columns">
-        <div className="column is-10 is-offset-1">
-          <div className="section">
-            <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-              {title}
-            </h2>
-            <PageContent className="content" content={content} />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-)
-}
-
-(
+}) => (
   <div>
     <div
       className="full-width-image margin-top-0"
@@ -57,7 +36,7 @@ return (
           height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
-          alignItems: 'left',
+          alignItems: 'center',
           flexDirection: 'column',
         }}
       >
@@ -89,60 +68,58 @@ return (
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-              <div className="columns">
-                  <div className="column is-4">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                  <div className="column is-4">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-
-                  <div className="column is-4">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-
-                </div>
                 <div className="content">
-                  <div className="tile">
+               
+               
+                <div className="columns">
+                
+                  <div className="column is-3 feature-card shadow-default">
+                  <a href="/documentation-core-fundamentals/">
+                    <img class="icons" src={iconFundamentals} alt="Fundamentals"  />    
+                    <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">                    
+                      Core fundamentals
+                    </p>
+                    <p className="feature-card-description">An overview of JUNIPA's approach to NCCD and your school.</p>
+                    <p class="button">Learn more</p>
+                    </a>
+                  </div>
+                
+                <div className="column is-3 feature-card shadow-default is-offset-1">
+                  <a href="/documentation-core-fundamentals/">
+                    <img class="icons" src={iconSetup} alt="Install and Setup icon"  />
+                    <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
+                      Install / Setup
+                    </p>
+                    <p className="feature-card-description">Setting up JUNIPA for your school.</p>
+                    <p class="button">Learn more</p>
+                    </a>
+                </div>                  
+                <div className="column is-3 feature-card shadow-default is-offset-1">
+                <a href="/tutorials-guides/">
+                <img class="icons" src={iconTutorials} alt="Tutorials"  />
+                  <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
+                      Tutorials &amp; Guides
+                    </p>
+                    <p className="feature-card-description">Browse tutorials for most common setup and development use-cases</p>
+                    <p class="button">Learn more</p>
+                  </a>
+                </div>
+                </div>
+                <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-4">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                  <div className="column is-4">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-
-                  <div className="column is-4">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-
-                </div>
                 <Features gridItems={intro.blurbs} />
-
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/products">
+                      See all products
+                    </Link>
+                  </div>
+                </div>
+                </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
@@ -170,17 +147,13 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
 }
 
 const IndexPage = ({ data }) => {
-  const { markdownRemark: post } = data
-
-
+  const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
@@ -192,16 +165,17 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
       />
     </Layout>
   )
 }
 
 IndexPage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
 }
 
 export default IndexPage
