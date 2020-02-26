@@ -34,3 +34,21 @@ FeatureGrid.propTypes = {
 }
 
 export default FeatureGrid
+
+export const pageQuery = graphql`
+  query FeatureGridTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      frontmatter {        
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+          extension
+          publicURL 
+        }               
+      }
+    }
+  }
+`

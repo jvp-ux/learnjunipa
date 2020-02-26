@@ -5,16 +5,41 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Content, { HTMLContent } from '../components/Content'
+
 
 export const IndexPageTemplate = ({
   image,
+  content, contentComponent, 
   title,
   heading,
   subheading,
   mainpitch,
   description,
   intro,
-}) => (
+}) => {
+
+const PageContent = contentComponent || Content 
+
+return (
+  <section className="section section--gradient">
+    <div className="container">
+      <div className="columns">
+        <div className="column is-10 is-offset-1">
+          <div className="section">
+            <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              {title}
+            </h2>
+            <PageContent className="content" content={content} />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+)
+}
+
+(
   <div>
     <div
       className="full-width-image margin-top-0"
@@ -64,6 +89,28 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
+              <div className="columns">
+                  <div className="column is-4">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <p>{description}</p>
+                  </div>
+                  <div className="column is-4">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <p>{description}</p>
+                  </div>
+
+                  <div className="column is-4">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <p>{description}</p>
+                  </div>
+
+                </div>
                 <div className="content">
                   <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
@@ -73,21 +120,29 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="columns">
-                  <div className="column is-12">
+                  <div className="column is-4">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
                     <p>{description}</p>
                   </div>
+                  <div className="column is-4">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <p>{description}</p>
+                  </div>
+
+                  <div className="column is-4">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <p>{description}</p>
+                  </div>
+
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
+
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
@@ -115,13 +170,17 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
+  content: PropTypes.string,
+  contentComponent: PropTypes.func,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
 }
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { markdownRemark: post } = data
+
+
 
   return (
     <Layout>
@@ -133,17 +192,16 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        content={post.html}
       />
     </Layout>
   )
 }
 
 IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
+  data: PropTypes.object.isRequired
 }
 
 export default IndexPage
