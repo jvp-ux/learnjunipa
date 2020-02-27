@@ -66,7 +66,7 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="columns">                
                   <div className="column is-3 feature-card shadow-default">
-                  <a href="/fundamentals/">
+                  <a href="/documentation/fundamentals/">
                     <img class="icons" src={iconFundamentals} alt="Fundamentals"  />    
                     <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">                    
                       Core fundamentals
@@ -83,14 +83,14 @@ export const IndexPageTemplate = ({
                       Install / Setup
                     </p>
                     <p className="feature-card-description">Setting up JUNIPA for your school.</p>
-                    <p class="button">Learn more</p>
+                    <p class="text-link">Learn more ></p>
                     </a>
                 </div>                  
                 <div className="column is-3 feature-card shadow-default is-offset-1">
-                <a href="/documentation/tutorials/">
+                <a href="/documentation">
                 <img class="icons" src={iconTutorials} alt="Tutorials"  />
                   <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
-                      Tutorial
+                      Tutorials
                     </p>
                     <p className="feature-card-description">Browse tutorials for most common setup and development use-cases</p>
                     <p class="button">Learn more</p>

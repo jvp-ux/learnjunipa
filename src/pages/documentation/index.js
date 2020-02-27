@@ -8,7 +8,7 @@ export default class DocumentationIndexPage extends React.Component {
     return (
       <Layout>
         <div
-          className="full-width-image-container margin-top-0"
+          className="full-width-image-container full-width-sub margin-top-0"
           style={{
             backgroundImage: `url('/img/bg-documentation.svg')`,
           }}
@@ -20,7 +20,7 @@ export default class DocumentationIndexPage extends React.Component {
               padding: '1rem',
             }}
           >
-            Documentation / Tutorials
+            Tutorials
           </h1>
         </div>
         <section className="section">
