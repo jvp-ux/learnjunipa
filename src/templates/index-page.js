@@ -77,7 +77,7 @@ export const IndexPageTemplate = ({
                   </div>
                 
                 <div className="column is-3 feature-card shadow-default is-offset-1">
-                  <a href="/install-setup/">
+                  <a href="/documentation/install-setup/">
                     <img class="icons" src={iconSetup} alt="Install and Setup icon"  />
                     <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
                       Install / Setup
@@ -87,10 +87,10 @@ export const IndexPageTemplate = ({
                     </a>
                 </div>                  
                 <div className="column is-3 feature-card shadow-default is-offset-1">
-                <a href="/documentation/">
+                <a href="/documentation/tutorials/">
                 <img class="icons" src={iconTutorials} alt="Tutorials"  />
                   <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
-                      Tutorials &amp; Guides
+                      Tutorial
                     </p>
                     <p className="feature-card-description">Browse tutorials for most common setup and development use-cases</p>
                     <p class="button">Learn more</p>
