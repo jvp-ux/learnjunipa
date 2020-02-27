@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import DocumentationRoll from '../components/DocumentationRoll'
 import iconFundamentals from '../../static/img/icon-fundamentals.svg'
 import iconSetup from '../../static/img/icon-setup.svg'
 import iconTutorials from '../../static/img/icon-tutorials.svg'
@@ -12,12 +11,8 @@ import iconTutorials from '../../static/img/icon-tutorials.svg'
 
 export const IndexPageTemplate = ({
   image,
-  title,
-  heading,
+  title,  
   subheading,
-  mainpitch,
-  description,
-  intro,
 }) => (
   <div>
     <div
@@ -69,12 +64,9 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-               
-               
-                <div className="columns">
-                
+                  <div className="columns">                
                   <div className="column is-3 feature-card shadow-default">
-                  <a href="/documentation-core-fundamentals/">
+                  <a href="/fundamentals/">
                     <img class="icons" src={iconFundamentals} alt="Fundamentals"  />    
                     <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">                    
                       Core fundamentals
@@ -85,7 +77,7 @@ export const IndexPageTemplate = ({
                   </div>
                 
                 <div className="column is-3 feature-card shadow-default is-offset-1">
-                  <a href="/documentation-core-fundamentals/">
+                  <a href="/install-setup/">
                     <img class="icons" src={iconSetup} alt="Install and Setup icon"  />
                     <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
                       Install / Setup
@@ -95,7 +87,7 @@ export const IndexPageTemplate = ({
                     </a>
                 </div>                  
                 <div className="column is-3 feature-card shadow-default is-offset-1">
-                <a href="/tutorials-guides/">
+                <a href="/documentation/">
                 <img class="icons" src={iconTutorials} alt="Tutorials"  />
                   <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
                       Tutorials &amp; Guides
@@ -131,6 +123,17 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+                <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-4 has-text-centered has-padding-top-20 has-padding-bottom-30">
+                    Tutorials / How to
+                  </h3>
+                  <DocumentationRoll />
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/documentation">
+                      Read more documentation
+                    </Link>
+                  </div>
+                </div>                
               </div>
             </div>
           </div>
