@@ -119,7 +119,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div> */}
                 </div>
-                <div className="column is-12">
+                {/* <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-4 has-text-centered has-padding-top-20 has-padding-bottom-30">
                   Latest Updates
                   </h3>
@@ -129,10 +129,10 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-4 has-text-centered has-padding-top-20 has-padding-bottom-30">
-                    Tutorials / How to
+                    Tutorials
                   </h3>
                   <DocumentationRoll />
                   <div className="column is-12 has-text-centered">

@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: LEARN JUNIPA
+title: JUNIPA LEARN
 image: /img/bg-home.svg
 heading: Managing NCCD your way
-subheading: Get up to speed and ahead of the curve
+subheading: Level-up your JUNIPA knowledge and take the power back
 # mainpitch:
 #   title: Why Kaldi
 #   description: >
