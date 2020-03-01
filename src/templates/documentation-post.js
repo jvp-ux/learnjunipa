@@ -25,8 +25,9 @@ export const DocumentationPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
+            <h3 className="has-text-weight-light has-text-grey">{description}</h3>
+            
+            <PostContent content={content}  className="postContent" />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -92,8 +93,7 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+      frontmatter {        
         title
         description
         tags

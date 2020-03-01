@@ -46,7 +46,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-thin is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{            
             color: 'white',
             lineHeight: '1',
@@ -72,7 +72,9 @@ export const IndexPageTemplate = ({
                       Core fundamentals
                     </p>
                     <p className="feature-card-description">An overview of JUNIPA's approach to NCCD and your school.</p>
-                    <p class="button">Learn more</p>
+                    <p class="text-link">Learn more <svg width="8" height="8" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 12L5 7L0 2L1 0L8 7L1 14L0 12Z" fill="#FA7500"/>
+</svg></p>
                     </a>
                   </div>
                 
@@ -83,7 +85,10 @@ export const IndexPageTemplate = ({
                       Install / Setup
                     </p>
                     <p className="feature-card-description">Setting up JUNIPA for your school.</p>
-                    <p class="text-link">Learn more ></p>
+                    <p class="text-link">Learn more <svg width="8" height="8" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 12L5 7L0 2L1 0L8 7L1 14L0 12Z" fill="#880088"/>
+</svg>
+</p>
                     </a>
                 </div>                  
                 <div className="column is-3 feature-card shadow-default is-offset-1">
@@ -93,7 +98,9 @@ export const IndexPageTemplate = ({
                       Tutorials
                     </p>
                     <p className="feature-card-description">Browse tutorials for most common setup and development use-cases</p>
-                    <p class="button">Learn more</p>
+                    <p class="text-link">Learn more <svg width="8" height="8" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 12L5 7L0 2L1 0L8 7L1 14L0 12Z" fill="#D6002B"/>
+</svg></p>
                   </a>
                 </div>
                 </div>
@@ -199,10 +206,6 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
         description
         intro {
           blurbs {
