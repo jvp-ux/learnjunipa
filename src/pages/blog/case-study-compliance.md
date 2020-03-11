@@ -32,15 +32,15 @@ uniqueclass: case-spreadsheet
 
 Jacob College uses a manual method of collecting the required NCCD adjustment data, taking staff many hours in the process:
 
-- Welfare staff have created spreadsheets on the internal share drive
+1. Welfare staff **have created spreadsheets** on the internal share drive:
 
-  - Teachers access the shared files periodically and add update the adjustments for each student
-  - Some teacher do this daily, but most attempt update this at the end of the week <br><br>
+   Teachers access the shared files periodically and add update the adjustments for each student<br>
+   Some teacher do this daily, but most attempt update this at the end of the week <br><br>
 
-* Welfare staff often have to **chase** teachers to update and complete data
-* Welfare staff **collect** documentary evidence from emails and scanned documents
-* Welfare staff **collate** this information into printed folders for reporting periods
-* Welfare staff **prepare** folders of printed information for reporting/auditing
+2. Welfare staff often have to **chase** teachers to update and complete data
+3. Welfare staff **collect** documentary evidence from emails and scanned documents
+4. Welfare staff **collate** this information into printed folders for reporting periods
+5. Welfare staff **prepare** folders of printed information for reporting/auditing
 
 ## The hidden cost of using spreadsheets
 
@@ -108,19 +108,21 @@ Jacob College uses a manual method of collecting the required NCCD adjustment da
 
 <p>JUNIPA does the heavy lifting, and is priced less than than a teacher's aide. JUNIPA frees up qualified staff to do what they're trained for and have a passion for - teaching students.</p>
 
+<p>The decision to implement JUNIPA made the school confident in providing evidence for the 200 students, and provided funding to support additional welfare staff. Staff that were spending less time documenting, and more time providing individualised care for students. </p>
+
 <p class="message message-body"> "By increasing the adjusted student reporting by only 50 students, Jacob College can receive an increase in NCCD funding of over a million dollars." </p>
 
-## Progressing to reflection
+<h3 class="has-text-info">Progressing to reflection</h3>
 
 <p>Two Teachers were undertaking a Behaviour support plan meeting, when another teacher was making adjustments at the same time.</p>
 
-<div class="has-text-centered">
+<p>These adjustments started a new conversations that wouldn't have happened otherwise. This is not something that occurs with spreadsheets filed away. </p>
+
+  <div class="has-text-centered">
 
 ![Adjustment narrative](/img/adjustment-narrative-slider.gif "Adjustment narrative")
 
-</div>
-
-<p>These adjustments started a new conversations that wouldn't have happened otherwise. This is not something that occurs with spreadsheets filed away. </p>
+  </div>
 
 </div>
 
