@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Case Study Jacob College
 date: 2020-03-01T00:00:10.000Z
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/adjustment-narrative-slider.gif
 description: This school currently manages NCCD with spreadsheets. Upgrading to an NCCD tool was an option  welfare staff.
 tags:
   - nccd
