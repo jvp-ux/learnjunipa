@@ -12,8 +12,8 @@ tags:
   - budget
 ---
 
-<div class="columns has-margin-top-0 has-margin-bottom-30 has-background-light has-padding-20">
-  <div class="column">  
+<div className="columns has-margin-top-0 has-margin-bottom-30 has-background-light has-padding-20">
+  <div className="column">  
     <h3> Educational setting </h3>
     Independant school
 
@@ -21,7 +21,7 @@ tags:
     400 total, 200 adjusted for within NCCD
 
   </div>
-  <div class="column">
+  <div className="column">
   <h3>Year levels</h3>  
   7-12
   </div>  
@@ -45,8 +45,8 @@ Jacob College uses a manual method of collecting the required NCCD adjustment da
 
 ## The hidden cost of using spreadsheets
 
- <table class="budget-summary has-margin-top-50 has-margin-bottom-50">    
-    <tr class="has-background-dark has-text-light">
+ <table className="budget-summary has-margin-top-50 has-margin-bottom-50">    
+    <tr className="has-background-dark has-text-light">
       <td>Staff type</td>
       <td>Task</td>
       <td>Weekly hours</td>
@@ -102,8 +102,8 @@ Jacob College uses a manual method of collecting the required NCCD adjustment da
     </tr>        
 </table>
 
-<div class="has-text-info has-margin-bottom-30">
-  <h2 class="has-text-info">New approach</h2>
+<div className="has-text-info has-margin-bottom-30">
+  <h2 className="has-text-info">New approach</h2>
 
 <p>A total of 1 full time equivalent (FTE) staffing costs per year were being lost on manual processes and tasks. Jacob College was using qualified staff as a brute force way of ensuring NCCD compliance. As more and more requirements were introduced for compliance, it was obvious that this approach was unsustainable.</p>
 
@@ -111,15 +111,15 @@ Jacob College uses a manual method of collecting the required NCCD adjustment da
 
 <p>The decision to implement JUNIPA made the school confident in providing evidence for the 200 students, and provided funding to support additional welfare staff. Staff that were spending less time documenting, and more time providing individualised care for students. </p>
 
-<p class="message message-body"> "By increasing the adjusted student reporting by only 50 students, Jacob College can receive an increase in NCCD funding of over a million dollars." </p>
+<p className="message message-body"> "By increasing the adjusted student reporting by only 50 students, Jacob College can receive an increase in NCCD funding of over a million dollars." </p>
 
-<h3 class="has-text-info">Progressing to reflection</h3>
+<h3 className="has-text-info">Progressing to reflection</h3>
 
 <p>Two Teachers were undertaking a Behaviour support plan meeting, when another teacher was making adjustments at the same time.</p>
 
 <p>These adjustments started a new conversations that wouldn't have happened otherwise. This is not something that occurs with spreadsheets filed away. </p>
 
-  <div class="has-text-centered">
+  <div className="has-text-centered">
 
 ![Adjustment narrative](/img/adjustment-narrative-slider.gif "Adjustment narrative")
 

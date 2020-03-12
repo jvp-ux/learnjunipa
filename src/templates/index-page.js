@@ -65,7 +65,7 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                     <div className="column is-3 feature-card shadow-default">
                       <a href="/documentation/fundamentals/">
                         <img
-                          class="icons"
+                          className="icons"
                           src={iconFundamentals}
                           alt="Fundamentals"
                         />
@@ -77,7 +77,7 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                           An overview of JUNIPA 's approach to NCCD and your
                           school.
                         </p>{" "}
-                        <p class="text-link">
+                        <p className="text-link">
                           {" "}
                           Learn more{" "}
                           <svg
@@ -98,7 +98,7 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                     <div className="column is-3 feature-card shadow-default is-offset-1">
                       <a href="/documentation/install-setup/">
                         <img
-                          class="icons"
+                          className="icons"
                           src={iconSetup}
                           alt="Install and Setup icon"
                         />
@@ -109,7 +109,7 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                           {" "}
                           Setting up JUNIPA for your school.{" "}
                         </p>{" "}
-                        <p class="text-link">
+                        <p className="text-link">
                           {" "}
                           Learn more{" "}
                           <svg
@@ -130,7 +130,7 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                     <div className="column is-3 feature-card shadow-default is-offset-1">
                       <a href="/documentation">
                         <img
-                          class="icons"
+                          className="icons"
                           src={iconTutorials}
                           alt="Tutorials"
                         />
@@ -142,7 +142,7 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                           Browse tutorials for most common setup and development
                           use - cases{" "}
                         </p>{" "}
-                        <p class="text-link">
+                        <p className="text-link">
                           {" "}
                           Learn more{" "}
                           <svg
