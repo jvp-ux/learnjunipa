@@ -35,7 +35,7 @@ Jacob College uses a manual method of collecting the required NCCD adjustment da
 1. Welfare staff **have created spreadsheets** on the internal share drive:
 
    Teachers access the shared files periodically and add update the adjustments for each student<br>
-   Some teacher do this daily, but most attempt update this at the end of the week <br><br>
+   Some teachers do this daily, but most attempt updates at the end of the week <br><br>
 
 2. Welfare staff often have to **chase** teachers to update and complete data
 3. Welfare staff **collect** documentary evidence from emails and scanned documents
