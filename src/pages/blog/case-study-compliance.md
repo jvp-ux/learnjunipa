@@ -2,9 +2,10 @@
 templateKey: blog-post
 title: Case Study Jacob College
 date: 2020-03-01T00:00:10.000Z
+uniqueClass: case-spreadsheet
 description: >-
   This school currently manages NCCD with spreadsheets. Upgrading to JUNIPA was
-  seen as cost-prohibitive. 
+  seen as cost-prohibitive.
 featuredpost: false
 featuredimage: /img/adjustment-narrative-slider.gif
 tags:

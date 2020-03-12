@@ -13,13 +13,12 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  helmet,
-  uniqueclass
+  helmet
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <div className={uniqueclass}>
+    <div>
       <div className="masthead has-padding-100">
         <h1 className="title is-size-1 has-text-centered	">{title}</h1>
         <h2 className="has-text-centered	">{description}</h2>
@@ -76,7 +75,6 @@ BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
-  uniqueclass: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object
 };
@@ -90,7 +88,6 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        uniqueclass={post.frontmatter.uniqueclass}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -125,7 +122,6 @@ export const pageQuery = graphql`
         title
         description
         tags
-        uniqueclass
       }
     }
   }

@@ -40,8 +40,8 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
             padding: "0.25em"
           }}
         >
-          {title}{" "}
-        </h1>{" "}
+          {title}
+        </h1>
         <h3
           className="has-text-weight-thin is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
@@ -50,10 +50,10 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
             padding: "0.25em"
           }}
         >
-          {subheading}{" "}
-        </h3>{" "}
-      </div>{" "}
-    </div>{" "}
+          {subheading}
+        </h3>
+      </div>
+    </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -65,20 +65,18 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                     <div className="column is-3 feature-card shadow-default">
                       <a href="/documentation/fundamentals/">
                         <img
-                          className="icons"
+                          class="icons"
                           src={iconFundamentals}
                           alt="Fundamentals"
                         />
                         <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
-                          Core fundamentals{" "}
-                        </p>{" "}
+                          Core fundamentals
+                        </p>
                         <p className="feature-card-description">
-                          {" "}
-                          An overview of JUNIPA 's approach to NCCD and your
+                          An overview of JUNIPA's approach to NCCD and your
                           school.
-                        </p>{" "}
-                        <p className="text-link">
-                          {" "}
+                        </p>
+                        <p class="text-link">
                           Learn more{" "}
                           <svg
                             width="8"
@@ -93,24 +91,23 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                             />
                           </svg>
                         </p>
-                      </a>{" "}
+                      </a>
                     </div>
+
                     <div className="column is-3 feature-card shadow-default is-offset-1">
                       <a href="/documentation/install-setup/">
                         <img
-                          className="icons"
+                          class="icons"
                           src={iconSetup}
                           alt="Install and Setup icon"
                         />
                         <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
-                          Install / Setup{" "}
-                        </p>{" "}
+                          Install / Setup
+                        </p>
                         <p className="feature-card-description">
-                          {" "}
-                          Setting up JUNIPA for your school.{" "}
-                        </p>{" "}
-                        <p className="text-link">
-                          {" "}
+                          Setting up JUNIPA for your school.
+                        </p>
+                        <p class="text-link">
                           Learn more{" "}
                           <svg
                             width="8"
@@ -123,27 +120,25 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                               d="M0 12L5 7L0 2L1 0L8 7L1 14L0 12Z"
                               fill="#880088"
                             />
-                          </svg>{" "}
-                        </p>{" "}
-                      </a>{" "}
-                    </div>{" "}
+                          </svg>
+                        </p>
+                      </a>
+                    </div>
                     <div className="column is-3 feature-card shadow-default is-offset-1">
                       <a href="/documentation">
                         <img
-                          className="icons"
+                          class="icons"
                           src={iconTutorials}
                           alt="Tutorials"
                         />
                         <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
-                          Tutorials{" "}
-                        </p>{" "}
+                          Tutorials
+                        </p>
                         <p className="feature-card-description">
-                          {" "}
                           Browse tutorials for most common setup and development
-                          use - cases{" "}
-                        </p>{" "}
-                        <p className="text-link">
-                          {" "}
+                          use-cases
+                        </p>
+                        <p class="text-link">
                           Learn more{" "}
                           <svg
                             width="8"
@@ -158,53 +153,53 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                             />
                           </svg>
                         </p>
-                      </a>{" "}
-                    </div>{" "}
-                  </div>{" "}
+                      </a>
+                    </div>
+                  </div>
                   {/* <div className="tile">
-                        <h1 className="title">{mainpitch.title}</h1>
-                      </div>
-                      <div className="tile">
-                        <h3 className="subtitle">{mainpitch.description}</h3>
-                      </div> */}{" "}
-                  {/* <Features gridItems={intro.blurbs} /> */}{" "}
+                    <h1 className="title">{mainpitch.title}</h1>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  </div> */}
+                  {/* <Features gridItems={intro.blurbs} /> */}
                   {/* <div className="columns">
-                      <div className="column is-12 has-text-centered">
-                        <Link className="btn" to="/products">
-                          See all products
-                        </Link>
-                      </div>
-                    </div> */}{" "}
-                </div>{" "}
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/products">
+                      See all products
+                    </Link>
+                  </div>
+                </div> */}
+                </div>
                 {/* <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-4 has-text-centered has-padding-top-20 has-padding-bottom-30">
-                      Latest Updates
-                      </h3>
-                      <BlogRoll />
-                      <div className="column is-12 has-text-centered">
-                        <Link className="btn" to="/blog">
-                          Read more
-                        </Link>
-                      </div>
-                    </div> */}{" "}
+                  <h3 className="has-text-weight-semibold is-size-4 has-text-centered has-padding-top-20 has-padding-bottom-30">
+                  Latest Updates
+                  </h3>
+                  <BlogRoll />
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/blog">
+                      Read more
+                    </Link>
+                  </div>
+                </div> */}
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-4 has-text-centered has-padding-top-20 has-padding-bottom-30">
-                    Tutorials{" "}
-                  </h3>{" "}
+                    Tutorials
+                  </h3>
                   <DocumentationRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/documentation">
-                      Read more documentation{" "}
-                    </Link>{" "}
-                  </div>{" "}
+                      Read more documentation
+                    </Link>
+                  </div>
                   <BlogRoll />
-                </div>{" "}
-              </div>{" "}
-            </div>{" "}
-          </div>{" "}
-        </div>{" "}
-      </div>{" "}
-    </section>{" "}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 );
 
@@ -233,7 +228,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
-      />{" "}
+      />
     </Layout>
   );
 };
