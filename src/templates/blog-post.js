@@ -76,6 +76,7 @@ BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
+  uniqueclass: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object
 };
