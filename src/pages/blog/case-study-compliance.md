@@ -7,7 +7,7 @@ description: >-
   This school currently manages NCCD with spreadsheets. Upgrading to JUNIPA was
   seen as cost-prohibitive.
 featuredpost: false
-featuredimage: /img/adjustment-narrative-slider.gif
+featuredimage: /img/blog-scr-spready.png
 tags:
   - nccd
   - budget
