@@ -55,10 +55,9 @@ export const BlogPostTemplate = ({
             </div>
             <div className="column has-text-light has-padding-30">
               <p className="has-text-light ">
-                Define, record and monitor NCCD program from your school all in
-                one platform. JUNIPA is the the fastest way for schools to
-                manage NCCD adjustments, unlock funding confidence and breeze
-                through audits, and more.
+                Define, record and monitor NCCD from one platform. JUNIPA is the
+                the fastest way for schools to manage NCCD adjustments, unlock
+                funding confidence and breeze through audits, and more.
               </p>
               <a className="button" href="https://junipa.com.au#demo">
                 Book a demo
