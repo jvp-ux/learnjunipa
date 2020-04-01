@@ -41,7 +41,7 @@ When the COVID-19 pandemic disrupted the school year and encouraged online-learn
      <br><br>
 
 3. The Head of well-being would then spend days on each student's folder by sorting notes into chronological order and identifying significant notes and adjustments. The adjustment weeks for each student would be tallied up kept in a spreadsheet against each student's name
-4. For any student planning meetings a well-being staff member would collect an deliver student folders to the meeting
+4. For any student planning meetings a well-being staff member would collect and deliver student folders to the meeting
 5. Well-being staff would then prepare/copy these folders for any reporting and auditing
 
 ## The cost of this paper-based approach to NCCD
@@ -123,12 +123,12 @@ When the COVID-19 pandemic disrupted the school year and encouraged online-learn
 
 <h3 class="has-text-info">Elevating adjustment confidence</h3>
 
-<p>As staff became accustomed to using JUNIPA, their confidence is making the correct decisions grew. Now adjustments and case notes could be referred to throughout the day. Staff were spending less time writing notes, and more time creating progressive plans more appropriate for online-learning. </p>
+<p>As staff became accustomed to using JUNIPA, confidence around decision making began to grow. Now adjustments and case notes could be referred to throughout the day. Staff were spending less time writing notes, and more time creating progressive plans more appropriate for online-learning. </p>
 
 <div class="message message-body">
 <p>The tool of choice has a massive impact on communication.  When adjustment evidence and case notes were being stored in manilla folders, there was a huge barrier for staff to stay on top of things. JUNIPA does the opposite, keeping teachers and student information <em>just a tap away</em>. </p>
 
-<p>Because JUNIPA runs in the cloud, the collaboraiton issues stop immediately. Teachers can access student adjustments and case notes remain an integral part of communicating changes across the school.</p>
+<p>Because JUNIPA runs in the cloud, the collaboration issues stop immediately. Teachers can access student adjustments and case notes remain an integral part of communicating changes across the school.</p>
 </div>
 
 </div>
