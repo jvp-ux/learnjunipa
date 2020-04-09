@@ -41,8 +41,8 @@ The school had gone through and passed a NCCD audit in the previous year. Audit 
 
 The business manager at Helen's school had the question, "Didn't we pass last year, why do we need to spend money to do this again?". Helen realised she needed to speak on the same level and responded with:
 
-<p class="message message-body">
-"Why should we switch to JUNIPA?"
+<div class="message message-body" style="font-size: 1em; font-family: George, serif; padding: 5em; border: 1px solid #333; margin-top: 2em; text-shadow: 0 0 2px black; ">
+<h3>Why should we switch to JUNIPA?</h3>
 
 First the direct funding benefits:
 
@@ -59,7 +59,9 @@ Then the time benefits:
 - Reduce the administration time allocated to preparing "Learning and Enhancement notes" for casual staff,
 - Remove the support responsibilities of the ICT team to support the current manual system.
 
-</p>
+</div>
+
+<p style="text-align: center; font-size: 0.9em"><em>Helen's response to her business manager</em></p>
 
 This was all in addition to the quality of teaching improvements, but a business manager speaks in money and time.
 
