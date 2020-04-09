@@ -263,6 +263,19 @@ footer.footer {
   box-shadow: 0 0 1px rgba(0, 0, 0, .03), 0 8px 26px -4px rgba(0, 0, 0, .1), 0 -18px 35px -19px rgba(0, 0, 0, .2);
 }
 
+.message-body {
+
+  border-width: 0px;
+  color: #4a4a4a;
+  padding: 1.25em 1.5em;
+}
+
+.message {
+  background: none;
+  border-radius: 0px;
+  font-size: 1.8rem;
+}
+
 .notification.is-warning.is-light {
   background-color: #fffbeb;
   color: #947600;
