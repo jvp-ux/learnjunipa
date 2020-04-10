@@ -13,12 +13,13 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  helmet
+  helmet,
+  uniqueClass,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <div>
+    <div className={uniqueClass}>
       <div className="masthead has-padding-100">
         <h1 className="title is-size-1 has-text-centered	">{title}</h1>
         <h2 className="has-text-centered	">{description}</h2>
@@ -34,7 +35,7 @@ export const BlogPostTemplate = ({
                   <div style={{ marginTop: `4rem` }}>
                     <h4>Tags</h4>
                     <ul className="taglist">
-                      {tags.map(tag => (
+                      {tags.map((tag) => (
                         <li key={tag + `tag`}>
                           <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                         </li>
@@ -75,7 +76,8 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
+  uniqueClass: PropTypes.string,
 };
 
 const BlogPost = ({ data }) => {
@@ -86,6 +88,7 @@ const BlogPost = ({ data }) => {
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
+        uniqueClass={post.frontmatter.uniqueClass}
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
@@ -105,8 +108,8 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default BlogPost;
@@ -121,6 +124,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        uniqueClass
       }
     }
   }

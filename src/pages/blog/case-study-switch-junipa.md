@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-title: Case Study From Head of Learning and Enhancement
+title: How to convince your team to switch to JUNIPA.
 date: 2020-04-10T00:00:10.000Z
-uniqueClass: case-spreadsheet
+uniqueClass: caseProove
 description: >-
   How to convince your team to switch to JUNIPA. This Head of Learning and Enhancement shares their process.
 featuredpost: false
-featuredimage: /img/blog-scr-spready.png
+featuredimage: /img/masthead-case-study-switch.jpg
 tags:
   - nccd
   - budget
@@ -20,6 +20,12 @@ One Head of Learning and Enhancement coordinator - we will call her Helen - took
 
 ## Step 1 - Discovery
 
+<div class="has-text-centered" style="margin-bottom: 20px">
+
+![Online learning](/img/masthead-case-study-switch.jpg "Online learning")
+
+  </div>
+
 Helen could see the collaborative and time saving advantages for her team but would the business manager's see the value? To get started Helen sent a school-wide email with the subject "I am testing a new NCCD tool, please contact me if you would like to join in". Helen had a handful of teachers reach out and discuss the pain points of their current approach:
 
 - Double-handling of paper work or spreadsheets,
@@ -28,6 +34,12 @@ Helen could see the collaborative and time saving advantages for her team but wo
 - Audit preparation takes too long.
 
 ## Step 2 - Show, don't tell
+
+  <div class="has-text-centered"  style="margin-bottom: 20px">
+
+![Adjustment narrative](/img/adjustment-narrative-slider.gif "Adjustment narrative")
+
+  </div>
 
 Helen shared a hyperlink to the <a href="https://demo.junipa.com.au">JUNIPA demo </a> for teachers and her team to walk through. Helen took feedback and talked through the school's current workflows and challenges. Helen then lobbied that JUNIPA could fix these issues and trusted that once people tried JUNIPA in a real world setting then the collaboration and time saving features would prove themselves. Convincing teachers was only half of the battle...
 
@@ -41,7 +53,7 @@ The school had gone through and passed a NCCD audit in the previous year. Audit 
 
 The business manager at Helen's school had the question, "Didn't we pass last year, why do we need to spend money to do this again?". Helen realised she needed to speak on the same level and responded with:
 
-<div class="message message-body" style="font-size: 1em; font-family: George, serif; padding: 5em; border: 1px solid #333; margin-top: 2em; text-shadow: 0 0 2px black; ">
+<div class="message message-body" style="background: #FFFFEC; font-size: 1em; font-family: George, serif; padding: 5em; border: 1px solid #FFEC76; margin-top: 2em; text-shadow: 0 0 1px black;">
 <h3>Why should we switch to JUNIPA?</h3>
 
 First the direct funding benefits:

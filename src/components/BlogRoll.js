@@ -26,7 +26,7 @@ class BlogRoll extends React.Component {
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`
+                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                         }}
                       />{" "}
                     </div>
@@ -61,9 +61,9 @@ class BlogRoll extends React.Component {
 BlogRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 export default () => (
@@ -86,6 +86,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                uniqueClass
               }
             }
           }
