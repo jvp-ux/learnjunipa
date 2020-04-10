@@ -2,21 +2,20 @@
 templateKey: blog-post
 title: How to convince your team to switch to JUNIPA.
 date: 2020-04-10T00:00:10.000Z
-uniqueClass: caseProove
 description: >-
-  How to convince your team to switch to JUNIPA. This Head of Learning and Enhancement shares their process.
-featuredpost: false
+  How to convince your team to switch to JUNIPA. This Head of Learning and
+  Enhancement shares their process.
+featuredpost: true
 featuredimage: /img/masthead-case-study-switch.jpg
 tags:
   - nccd
   - budget
 ---
-
 ## Convincing your school to switch to an NCCD management tool like JUNIPA isn't easy. Moving to a cloud-based, collaborative aproach to NCCD is a cultural shift.
 
-One Head of Learning and Enhancement coordinator - we will call her Helen - took a step-by-step approach to moving to Figma, making sure she had school-side support for the change. Introducing JUNIPA was about more than just a new tool. It was about shifting the teaching and adjustment to:
+One Head of Learning and Enhancement coordinator - we will call her Helen - took a step-by-step approach to moving to JUNIPA, making sure she had school-side support for the change. Introducing JUNIPA was about more than just a new tool. It was about shifting the teaching and adjustment to:
 
-<p class="message message-body">"How can we make NCCD a school-wide responsibility and not just a responsiblity for the Learning and Enhancement team?"</p>
+<p class="message message-body">"How can we make NCCD a school-wide responsibility and not just a responsibility for the Learning and Enhancement team?"</p>
 
 ## Step 1 - Discovery
 
@@ -28,10 +27,10 @@ One Head of Learning and Enhancement coordinator - we will call her Helen - took
 
 Helen could see the collaborative and time saving advantages for her team but would the business manager's see the value? To get started Helen sent a school-wide email with the subject "I am testing a new NCCD tool, please contact me if you would like to join in". Helen had a handful of teachers reach out and discuss the pain points of their current approach:
 
-- Double-handling of paper work or spreadsheets,
-- Siloed teams prevented collaboration throughout the school,
-- Paper work is forgotten and never referenced again, and
-- Audit preparation takes too long.
+* Double-handling of paper work or spreadsheets,
+* Siloed teams prevented collaboration throughout the school,
+* Paper work is forgotten and never referenced again, and
+* Audit preparation takes too long.
 
 ## Step 2 - Show, don't tell
 
@@ -58,18 +57,18 @@ The business manager at Helen's school had the question, "Didn't we pass last ye
 
 First the direct funding benefits:
 
-- Increase our NCCD funding by at least \$99,000 by offering support to 6 additional students identified as requiring adjustments,
-- Further increase our NCCD funding by \$48,000 through transitioning 4 students from supplementary to substantial level of adjustments,
-- Receiving an additional \$30,000 in NCCD funding as 2 students requiring substantial adjustments transition to extensive,
+* Increase our NCCD funding by at least $99,000 by offering support to 6 additional students identified as requiring adjustments,
+* Further increase our NCCD funding by $48,000 through transitioning 4 students from supplementary to substantial level of adjustments,
+* Receiving an additional $30,000 in NCCD funding as 2 students requiring substantial adjustments transition to extensive,
 
 Then the time benefits:
 
-- Remove the need for NCCD compliance as this is all built-in, and available to the business managers and principal via a login,
-- Remove the need for NCCD audit preparation - this took 4 weeks and 2 staff last year!
-- Reduce the Student Planning meetings duration by 50% - last year we spent most of our time just collecting all the adjustment notes,
-- Reduce the overhead of RFF dedicated to NCCD adjustments for stage co-ordinators,
-- Reduce the administration time allocated to preparing "Learning and Enhancement notes" for casual staff,
-- Remove the support responsibilities of the ICT team to support the current manual system.
+* Remove the need for NCCD compliance as this is all built-in, and available to the business managers and principal via a login,
+* Remove the need for NCCD audit preparation - this took 4 weeks and 2 staff last year!
+* Reduce the Student Planning meetings duration by 50% - last year we spent most of our time just collecting all the adjustment notes,
+* Reduce the overhead of RFF dedicated to NCCD adjustments for stage coordinators,
+* Reduce the administration time allocated to preparing "Learning and Enhancement notes" for casual staff,
+* Remove the support responsibilities of the ICT team to support the current manual system.
 
 </div>
 
@@ -87,6 +86,6 @@ The school had a protective ICT team who did not want to take on extra support f
 
 ## Conclusion
 
-Helen had to prove that the compliance costs of _not_ having JUNIPA took $180,000 in funding away from the school. Combined with the existing funding the school was now receiving in excess of $900,000 in NCCD funding. The business manager realised that JUNIPA helped identify this funding gap and removed extra overheads for support staff.
+Helen had to prove that the compliance costs of *not* having JUNIPA took $180,000 in funding away from the school. Combined with the existing funding the school was now receiving in excess of $900,000 in NCCD funding. The business manager realised that JUNIPA helped identify this funding gap and removed extra overheads for support staff.
 
 </div>
