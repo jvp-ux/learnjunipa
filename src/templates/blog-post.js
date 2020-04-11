@@ -20,7 +20,7 @@ export const BlogPostTemplate = ({
 
   return (
     <div className={uniqueClass}>
-      <div className="masthead has-padding-100">
+      <div className="masthead has-padding-20">
         <h1 className="title is-size-1 has-text-centered	">{title}</h1>
         <h2 className="has-text-centered	">{description}</h2>
       </div>
