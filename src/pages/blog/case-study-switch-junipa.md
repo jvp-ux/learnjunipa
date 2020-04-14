@@ -13,7 +13,8 @@ tags:
 ---
 ## Convincing your school to switch to an NCCD management tool like JUNIPA isn't easy. Moving to a cloud-based, collaborative approach to NCCD is a cultural shift.
 
-One Head of Learning and Enhancement coordinator - we will call her Helen - took a step-by-step approach to moving to JUNIPA, making sure she had school-side support for the change. Introducing JUNIPA was about more than just a new tool. It was about shifting the teaching and adjustment to:
+
+Helen, a Learning and Enhancement coordinator, took a step-by-step approach to move her school over to JUNIPA.  Introducing JUNIPA was more than just onboarding a new tool - it was a cultural shift that included teachers and administration staff. 
 
 <p class="message message-body">"How can we make NCCD a school-wide responsibility and not just a responsibility for the Learning and Enhancement team?"</p>
 
@@ -34,7 +35,7 @@ Helen could see the collaborative and time saving advantages for her team but wo
 
 ## Step 2 - Show, don't tell
 
-  <div class="has-text-centered"  style="margin-bottom: 20px">
+  <div class="has-text-centered"  style="margin-bottom: 20px; padding-top: 20px; ">
 
 ![Adjustment narrative](/img/adjustment-narrative-slider.gif "Adjustment narrative")
 
@@ -90,3 +91,9 @@ Helen proved that using JUNIPA would unlock a further $180,000 in NCCD funding f
 \
 JUNIPA's built-in forecasting tools meant the business manager was able to calculate funding well ahead of the reporting and budgeting season. 
 </div>
+
+<hr>
+
+<small>Note: Helen's name has been changed with the process and elements remaining part of a real school and situation. We present this as a case study of what many schools in your position are dealing with.</small>
+
+
