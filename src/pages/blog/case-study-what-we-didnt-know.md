@@ -2,9 +2,10 @@
 templateKey: blog-post
 title: Case Study St Jude
 date: 2020-05-12T00:00:10.000Z
-uniqueClass: case-what-we-didnt-know
 description: >-
-  This school had a compliance risk and implemented JUNIPA. They quickly realised they could improve other parts of their school collaboration and NCCD preparation.
+  This school had a compliance risk and implemented JUNIPA. They quickly
+  realised they could improve other parts of their school collaboration and NCCD
+  preparation.
 featuredpost: false
 featuredimage: /img/zoom-pan.gif
 tags:
@@ -32,15 +33,15 @@ tags:
 
 ## So many files in so many places!
 
-St Jude kept NCCD records using an in-house method. This method combined efforts from the Learning and Enhancement team as well as ICT staff. The system was great at delivering reports for audit, so long as all the required information was present. The school had successfully passed an audit to secure funding and now it was time to move beyond compliance and into improving Quality of Teaching.
+St Jude kept NCCD records using an in-house method. This method combined efforts from the Learning and Enhancement team as well as ICT staff. The system was great at delivering reports for audit, so long as all the required information was present. The school had successfully passed an audit to secure funding and now it was time to move beyond purely compliance and into improving Quality of Teaching.
 
 ## Collaboration = more productivity.
 
-St Jude was the ideal school for JUNIPA as staff were dispered across multiple small campuses. JUNIPA would act as the new source of truth and help the collaboration for NCCD adjustments and preparation. In no time, the team was iterating planned adjustment and collaborating in a single location - running meetings on JUNIPA. Feedback was solicited through JUNIPA case notes and internal stakeholders were notified of any changes. Parents and guardians of students then had access to a complete picture of their child's plan - prepared through JUNIPA.
+St Jude was the ideal school for JUNIPA as staff were dispersed across multiple small campuses. JUNIPA would act as the new source of truth and help the collaboration for NCCD adjustments and preparation. In no time, the team was iterating planned adjustments and collaborating in a single location - running meetings on JUNIPA. Feedback was solicited through JUNIPA case notes and internal stakeholders were notified of any changes. Parents and guardians of students then had access to a complete picture of their child's plan - prepared through JUNIPA.
 
 <p class="message message-body"> "We didn't need to physically share a screen or location to collaborate on student adjustments or IEPs - rather we can follow along, all within JUNIPA to sign-off and administer adjustments. I could see when my staff had made changes and if I needed to provide contents, it all remained within the notes of the student. " </p>
 
-The Principal and Business Manager of St Jude could forecase their budget and expected funding -all within a single view. As a result, the planning was flipped on it's head - with the Learning and Enhancement team informing the budget.
+The Principal and Business Manager of St Jude could forecast their budget and expected funding -all within a single view. As a result, the planning was flipped on it's head - with the Learning and Enhancement team informing the budget.
 
   <div class="has-text-centered ">
 
@@ -48,9 +49,7 @@ The Principal and Business Manager of St Jude could forecase their budget and ex
 
   </div>
 
-The the review process between staff and students become significantly shorter but even better - more valuable.
-
-Inclusive design empowers.
+The the review process between staff and students became significantly shorter but even better.
 
 ### Traceable, auditable and repeatable outcomes
 
@@ -66,9 +65,9 @@ JUNIPA helped the Learning and Enhancment team create a sustainable system. syst
 
 <p class="message message-body">"We also found that JUNIPA leveled the playing field and made the planning process more democratic - which is what our team had been pushing for so long! " </p>
 
-### A small team makes big impact.
+### A small team makes a big impact.
 
-The Learning and Enhancement team at St Jude started to capture the attention of the executive members. The team was fast moving, collaborative and began informing the outcome of meetings rather than reacting. JUNIPA helped the team consoliated their tools and efforts, tightening up their complex sign-offs and centralised all evidence .
+The Learning and Enhancement team at St Jude started to capture the attention of the executive members. The team was fast moving, collaborative and began informing the outcome of meetings rather than reacting.  JUNIPA helped the team consolidated their tools and efforts, tightening up their complex sign-offs and centralised all evidence.
 
 <p class="message message-body"> "We now have a dynamic, collaborative environment that enables us to brainstorm together, bounce ideas off one another and ultimately provide greater care to our students. " </p>
 
