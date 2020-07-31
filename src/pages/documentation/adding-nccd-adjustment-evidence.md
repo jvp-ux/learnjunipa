@@ -1,6 +1,6 @@
 ---
 templateKey: documentation-post
-title: Adding NCCD adjustment evidence
+title: Adding NCCD adjustment evidences
 description: >-
   At the core of JUNIPA is adding evidence for NCCD adjustments.  Adding
   adjustment evidence can be straight forward depending on what type of user you
