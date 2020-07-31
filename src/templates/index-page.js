@@ -256,26 +256,7 @@ export const pageQuery = graphql`
           }
           extension
           publicURL
-        }
-        heading
-        subheading
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-              extension
-              publicURL
-            }
-            text
-          }
-          heading
-          description
-        }
+        }       
       }
     }
   }
