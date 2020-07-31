@@ -192,7 +192,9 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                       Read more documentation
                     </Link>
                   </div>
+                  <div style="display: none;">
                   <BlogRoll />
+                  </div>
                 </div>
               </div>
             </div>
