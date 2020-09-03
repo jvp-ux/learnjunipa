@@ -46,7 +46,7 @@ The *Student Evidence* record will show student's declared *Disability category*
 1. *Recorded date*: When the evidence was recorded. Note this date is the timestamp of the school staff member recording evidence, and will typically be after the event
 2. *Evidence type*: What category of evidence was recorded, and does this evidence correlate to a student's Individual Education Plans (IEP)
 3. *Location:*  Was the evidence recorded against a class/event in the past, and is there a file attachment to be used as evidence:  ![Student record](/img/audit-report-student-record-location-annotation.png "Student record")
-4. *Recorded by:* Who recorded the message. 
+4. *Recorded by:* Who recorded the evidence. 
 
 #### Note
 
