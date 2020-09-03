@@ -50,6 +50,6 @@ The *Student Evidence* record will show student's declared *Disability category*
 
 #### Note
 
-Only staff members with audit reporting functionality will be able to view audit data. 
+Only staff members with audit reporting privileges will be able to view audit data. 
 
 The IEP module is an add-on module for schools requiring integration with Individual Education Plans (IEP) and recording adjustments.
