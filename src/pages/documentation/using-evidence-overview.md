@@ -17,7 +17,7 @@ Identifying:
 * [Students by weeks of evidence recorded](#students-evidence-recorded)
 * [Students by weeks of evidence recorded and NCCD adjustment levels](#nccd-adjustment-levels)
 * [Students by weeks of evidence recorded and disability categories](#disability-category-breakdown)
-* [Evidence frequency by school week](#evidence-frequency-week)
+* [Evidence frequency by calendar week](#evidence-frequency-week)
 * [NCCD portal submission data](#nccd-student-disability-data-breakdown)
 
 ![Evidence overview](/img/evidence-overview.png "Evidence overview")
@@ -66,19 +66,11 @@ The *Disability category breakdown* identifies the adjustment level of each stud
 
 <a id="evidence-frequency-week"></a>
 
-## Identifying evidence frequency by school week
+## Identifying evidence frequency by calendar week
 
-The *Identifying by school week* grid highlights school wide evidence tallies across the school, for the calendar year.  This grid is useful in identifying busy periods throughout the school year and to understand staff workload. 
+The *Identifying by calendar week* grid highlights school wide evidence tallies across the school, for the calendar year.  This grid is useful in identifying busy periods throughout the school year and to understand staff workload. 
 
-![Identifying evidence frequency by school week](/img/evidence-overview-evidence-by-school-week.png "Identifying evidence frequency by school week")
-
-<a id="evidence-frequency-week"></a>
-
-## Identifying evidence frequency by school week
-
-The *Identifying by school week* grid highlights school-wide evidence tallies across the school, for the calendar year.  This grid is useful in identifying busy periods throughout the school year and to understand staff workload. 
-
-![Identifying evidence frequency by school week](/img/evidence-overview-evidence-by-school-week.png "Identifying evidence frequency by school week")
+![Identifying evidence frequency by calendar week](/img/evidence-overview-evidence-by-school-week.png "Identifying evidence frequency by calendar week")
 
 <a id="nccd-student-disability-data-breakdown"></a>
 
@@ -92,4 +84,4 @@ The *None identified* disability category remains an option for schools declarin
 
 #### Note
 
-Only staff members with evidence overview functionality will be able to view the evidence overview data.
+Only staff members with evidence overview privileges will be able to view the evidence overview data.
