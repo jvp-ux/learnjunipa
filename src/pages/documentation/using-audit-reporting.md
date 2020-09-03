@@ -12,15 +12,19 @@ tags:
 
 ## On this page
 
+  * [Using the audit report](#audit-report)
   * [Audit reporting for an auditor](#audit-auditor)
-  * [Students by weeks of evidence recorded and NCCD adjustment levels](#nccd-adjustment-levels)
-  * [Students by weeks of evidence recorded and disability categories](#disability-category-breakdown)
-  * [Evidence frequency by school week](#evidence-frequency-week)
-  * [NCCD portal submission data](#nccd-student-disability-data-breakdown)
-
   
+<a id="audit-report"></a>
+  
+## Using the audit report
 
 ![Audit report](/img/audit-report.png "Audit report")
+
+1. Select a _Reporting Year_
+2. Order by  _Weeks collected_ by selecting _Weeks collected_ column heading
+3. Order by NCCD category by selecting _Assessment, Consultation, Provided and Monitored_ column headings
+4. Select a student for NCCD data on student
 
 <a id="audit-auditor"></a>
 
