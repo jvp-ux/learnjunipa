@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
-import BlogRoll from "../components/BlogRoll";
 import DocumentationRoll from "../components/DocumentationRoll";
 import iconFundamentals from "../../static/img/icon-fundamentals.svg";
 import iconSetup from "../../static/img/icon-setup.svg";
