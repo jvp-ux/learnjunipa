@@ -14,9 +14,10 @@ tags:
 
 ## How to search for a student
 
-![How to search for a student ](/img/searching-for-a-student.gif "How to search for a student")
+![How to search for a student ](/img/how to search for a student.gif "How to search for a student")
 
 ### Steps taken 
 
-1. Navigate to the search bar
+1. From your Overview page, navigate to the search bar
 2. Enter a first or last name of a student and select search
+3. Select the student to view the Student Journal

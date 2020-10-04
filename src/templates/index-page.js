@@ -94,17 +94,17 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                     </div>
 
                     <div className="column is-3 feature-card shadow-default is-offset-1">
-                      <a href="/documentation/install-setup/">
+                      <a href="/tags/getting-started/">
                         <img
                           class="icons"
                           src={iconSetup}
                           alt="Install and Setup icon"
                         />
                         <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
-                          Install / Setup
+                          Getting started
                         </p>
                         <p className="feature-card-description">
-                          Setting up JUNIPA for your school.
+                          Use cases for Junipa.
                         </p>
                         <p class="text-link">
                           Learn more{" "}

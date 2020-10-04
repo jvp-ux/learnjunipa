@@ -26,7 +26,7 @@ JUNIPA provides the following significant event grades:
 
 ![Significant Event Categories ](/img/significant-event-categories.png "Significant Event Categories")
 
->The application and grading of student events is the responsibility of each school.
+>The process of grading a severity level to each event rests with the school.
 
 <a id="record-significant-event"></a>
 
