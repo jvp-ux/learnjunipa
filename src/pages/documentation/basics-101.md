@@ -159,7 +159,7 @@ An "at a glance" view of all case notes, adjustment evidence and significant eve
 
 #### Last 7 days:
 
-A 7 day view of all case notes, adjustment evidence and events recorded against a student.  Selecting a day (touch or click) allows you to add evidene for that specific day. 
+A 7 day view of all case notes, adjustment evidence and events recorded against a student.  Selecting a day (touch or click) allows you to add evidence for that specific day. 
 
 ![Student Journal Last 7 days](/img/scr-student-journal-last-7-days.jpg "Student Journal Last 7 days")
 
