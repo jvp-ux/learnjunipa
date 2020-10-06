@@ -61,7 +61,37 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
               <div className="content">
                 <div className="content">
                   <div className="columns">
-                    <div className="column is-3 feature-card shadow-default">
+                  <div className="column is-3 feature-card shadow-default ">
+                      <a href="/documentation/basics-101/">
+                        <img
+                          class="icons"
+                          src={iconSetup}
+                          alt="Install and Setup icon"
+                        />
+                        <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
+                          Junipa 101
+                        </p>
+                        <p className="feature-card-description">
+                          Simple exercises to get you up and running quickly. 
+                        </p>
+                        <p class="text-link">
+                          Learn more{" "}
+                          <svg
+                            width="8"
+                            height="8"
+                            viewBox="0 0 8 14"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 12L5 7L0 2L1 0L8 7L1 14L0 12Z"
+                              fill="#880088"
+                            />
+                          </svg>
+                        </p>
+                      </a>
+                    </div>
+                    <div className="column is-3 feature-card shadow-default is-offset-1">
                       <a href="/documentation/fundamentals/">
                         <img
                           class="icons"
@@ -93,36 +123,7 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
                       </a>
                     </div>
 
-                    <div className="column is-3 feature-card shadow-default is-offset-1">
-                      <a href="/tags/getting-started/">
-                        <img
-                          class="icons"
-                          src={iconSetup}
-                          alt="Install and Setup icon"
-                        />
-                        <p className="has-text-weight-semibold is-size-5 margin-bottom-0 margin-top-2">
-                          Getting started
-                        </p>
-                        <p className="feature-card-description">
-                          Use cases for Junipa.
-                        </p>
-                        <p class="text-link">
-                          Learn more{" "}
-                          <svg
-                            width="8"
-                            height="8"
-                            viewBox="0 0 8 14"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 12L5 7L0 2L1 0L8 7L1 14L0 12Z"
-                              fill="#880088"
-                            />
-                          </svg>
-                        </p>
-                      </a>
-                    </div>
+    
                     <div className="column is-3 feature-card shadow-default is-offset-1">
                       <a href="/documentation">
                         <img
