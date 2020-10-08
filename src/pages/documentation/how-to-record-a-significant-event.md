@@ -1,7 +1,7 @@
 ---
 templateKey: documentation-post
 title: How to record a significant event
-description: How to record a significant event
+description: What are significant events and how can they help NCCD adjustments and best practice for teachers. 
 tags:
   - events
   - students
@@ -13,14 +13,17 @@ tags:
 * [What is a significant event?](#what-is-a-significant-event)
 * [How to record a significant event](#record-significant-event)
 * [How to record an historical or origin significant event](#record-historical-event)
+* [Reviewing significant events](#review-events)
 
-<a id="what-is-a-significant-event"></a>
+<a id="what-is-a-significant-event" style="margin-top: 100px; display: block"></a>
 
 ## What is a significant event?
 
-A significant event is something extraordinary that has impacted a student. JUNIPA helps with the recording and referencing of significant events, creating an up-to-date comprehensive picture of a student. 
+A significant event is something extraordinary that has impacted a student. 
 
-The Adjustment Narrative of each student will then surface these events, providing more context to staff, prior to and after specific events. 
+Significant events are recorded in Junipa and are then displayed on a <a href="/documentation/basics-101/#exercise-5/">student's narrative</a>, providing more context to staff.  A recurring historical event can remind staff, ahead of time, of the event so staff can plan accordingly. 
+
+![Student journal](/img/scr-student-journal-narrative.jpg "Student journal")
 
 JUNIPA provides the following significant event grades: 
 
@@ -28,7 +31,7 @@ JUNIPA provides the following significant event grades:
 
 >The process of grading a severity level to each event rests with the school.
 
-<a id="record-significant-event"></a>
+<a id="record-significant-event" style="margin-top: 100px; display: block"></a>
 
 ## How to record a significant event
 
@@ -43,7 +46,7 @@ JUNIPA provides the following significant event grades:
 5. Select Save
 
 
-<a id="record-historical-event"></a>
+<a id="record-historical-event" style="margin-top: 100px; display: block"></a>
 
 ## How to record an historical or origin significant event
 
@@ -61,3 +64,20 @@ An event that is occuring for the first time, or recently, can be set as an orig
 2. Complete the significant even form
 3. Select an appropriate impact level
 4. Select Save
+
+
+<a id="review-events" style="margin-top: 100px; display: block"></a>
+
+## Reviewing significant events
+
+Reviewing significant events in a set period of time helps identify patterns and may assist with planning student adjustments ahead of time. 
+
+![Significant Event Identify ](/img/scr-student-narrative-week-view-identify.jpg "Significant Event Identify")
+
+### Steps taken 
+
+1. Navigate to the student screen and review Narrative
+2. Change View by filter to Hour, Day or Week
+3. Identify event clusters
+
+

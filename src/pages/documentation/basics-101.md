@@ -149,6 +149,7 @@ A summary of NCCD evidence
 
 ![Student Journal evidence summary](/img/scr-student-journal-evidence-summary.jpg "Student Journal evidence summary")
 
+<a id="narrative" style="margin-top:50px; display: block; "></a>
 
 #### Narrative:
 
