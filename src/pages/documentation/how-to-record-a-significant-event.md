@@ -1,8 +1,7 @@
 ---
 templateKey: documentation-post
-title: How to record a significant event
-description: What are significant events and how can they help NCCD adjustments and best practice for teachers. 
-tags:
+title: Recording and reviewing  significant events 
+description: Recording and reviewing significant events for students with trauma-based disabilities can assist with better management and adjustments for each student.
   - events
   - students
 ---
