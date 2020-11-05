@@ -10,11 +10,12 @@ tags:
 ## On this page
 
 * [What is LISS](#what-is-liss)
-* [Students by weeks of evidence recorded and NCCD adjustment levels](#nccd-adjustment-levels)
-* [Students by weeks of evidence recorded and disability categories](#disability-category-breakdown)
-* [Evidence frequency by calendar week](#evidence-frequency-week)
-* [NCCD portal submission data](#nccd-student-disability-data-breakdown)
+* [Initial set up with Junipa and Edval](#initial-edval-setup)
+* [Part 1: Sychronising Edval with Junipa](#synchronising-edval-with-junipa)
+* [Part 2: Approving the Edval import within Junipa](#approving-the-edval-import)
 
+
+<a id="what-is-liss"></a>  
 ## What is LISS
 
 LISS = Lightweight Interoperability Standard for Schools.
@@ -26,67 +27,60 @@ To see if your timetabling and student managment system supports LISS view the s
 
 ## Prerequisites
 
-> Step 1: Make sure Junipa has a term set up with the correct Term dates. This is an important prerequisite prior to importing from LISS. 
+>  Only Junipa users with sufficient privileges will have access to LISS settings within Junipa. 
+>  Make sure Junipa has a term set up with the correct Term dates. This is an important prerequisite prior to importing from LISS. 
 
 
-## Setting up Junipa with Edval
+<a id="initial-edval-setup"></a>  
+
+## Initial set up with Junipa and Edval
 
 ![Identifying students by weeks of evidence recorded and disability categories](https://www.edval.education/wp-content/uploads/2017/12/Logo-Edval-PNG.png "Evidence overview adjustment level breakdown")
 
 
+![edval configure](/img/configure-liss.gif "Configure LISS")
 
-1. Navigate to the *Students with evidence recorded* table
-2. Identify the weeks column
-3. Select the student tally
-4. Navigate to the student tally screen
-5. Select a student record to manage
+1. Navigate to File
+2. Select Synchronise, 
+3. Select Configure,
+4. Add Junipa, and
+5. Select Configure
+6. Provide your LISS details
 
-<a id="nccd-adjustment-levels"></a>
 
-## Identifying students by weeks of evidence recorded and NCCD adjustment levels
+<a id="synchronising-edval-with-junipa"></a>  
 
-The *Adjustment level breakdown* identifies the adjustment level of each student, and tallies the number of adjustment weeks they have recorded. 
+## Part 1: Sychronising Edval with Junipa
 
-![Identifying students by weeks of evidence recorded and disability categories](/img/evidence-overview-adjustment-level-breakdown.png "Evidence overview adjustment level breakdown")
+>  The process of synchronisation is still an export and import process, so be sure to follow the instructions in the next step
 
-1. Navigate to the *Adjustment level breakdown* table 
-2. Identify the weeks column, and adjustment level
-3. Select the student tally
-4. Navigate to the student tally screen 
-5. Select a student record to manage
+![edval configure](/img/edval-sync-now.gif "Edval Sync now")
 
-<a id="disability-category-breakdown"></a>
+1. While viewing the Junipa Configure screen, 
+2. Select Sync now, 
+3. From the Sync now tab, ensure the Manual sync tab is selected, and
+4. Select the items that you will be synchronising from Edval to Junipa. 
 
-## Disability category breakdown
+>  Attempt to only select those Edval items that have been updated since the last synchronisiation. If you choose to sync all items then the process will take an extended period of time. 
 
-The *Disability category breakdown* identifies the adjustment level of each student, and tallies the number of adjustment weeks they have recorded. 
+5. Select Go.  
 
-![Evidence overview Disability category breakdown](/img/evidence-overview-disability-category-breakdown.png "Evidence overview Disability category breakdown")
+ Edval is now synchronising with Junipa. 
 
-1. Navigate to the *Disability category breakdown* 
-2. Identify the weeks' column, and adjustment level
-3. Select the student tally
-4. Navigate to the student tally screen 
-5. Select a student record to manage
 
-<a id="evidence-frequency-week"></a>
 
-## Identifying evidence frequency by calendar week
+<a id="approving-the-edval-import"></a>  
 
-The *Identifying by calendar week* grid highlights school wide evidence tallies across the school, for the calendar year.  This grid is useful in identifying busy periods throughout the school year and to understand staff workload. 
+## Part 2: Approving the Edval import within Junipa
 
-![Identifying evidence frequency by calendar week](/img/evidence-overview-evidence-by-school-week.png "Identifying evidence frequency by calendar week")
+> The synchronisation process is intentionally manual to ensure that the correct timetable information is being imported. 
 
-<a id="nccd-student-disability-data-breakdown"></a>
+![edval configure](/img/liss-import-junipa-end.gif "Liss import Junipa end")
 
-## NCCD portal submission data
+1. Navigate to the LISS Imports screen, 
+2. Select a synchronised item and  Sync now, 
+3. From the Sync now tab, ensure the Manual sync tab is selected, and
+4. Identify what items you are synchronising (importing) from Edval to Junipa and select Import Detail
+5. Select what term you are importing into
+6. Select Approve and Set
 
-The *Student Disability data breakdown* table collates the data required for NCCD data submission.  The data is live and provides an accurate snapshot of NCCD data and can be used as the reference point for NCCD reporting. 
-
-The *None identified* disability category remains an option for schools declaring NCCD inclusion for a student without assigning a disability category for that student. 
-
-![Identifying evidence frequency by school week](/img/evidence-nccd-portal-submission.png "evidence-nccd-portal-submission.png")
-
-#### Note
-
-Only staff members with evidence overview privileges will be able to view the evidence overview data.
