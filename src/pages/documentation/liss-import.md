@@ -58,7 +58,7 @@ To see if your timetabling and student management system supports LISS view the 
 3. From the Sync now tab, ensure the Manual sync tab is selected, and
 4. Select the items that you will be synchronising from Edval to Junipa. 
 
->  Attempt to only select those Edval items that have been updated since the last synchronisiation. If you choose to sync all items then the process will take an extended period of time. 
+>  Attempt to only select those Edval items that have been updated since the last synchronisation. If you choose to sync all items then the process will take an extended period of time. 
 
 5. Select Go.  
 
