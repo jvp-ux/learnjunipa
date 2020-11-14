@@ -23,7 +23,7 @@ tags:
 
 JUNIPA leverages your school timetable to display what students you are interacting with today. 
 
-
+> Note the NCCD headings and subheadings in the instructions below may differ from your school's NCCD arrangement.  
 
 ![Add NCCD adjustment evidence](/img/add-adjustment-evidence.gif "Add NCCD adjustment evidence")
 
